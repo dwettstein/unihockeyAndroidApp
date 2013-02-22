@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/table"
+        android:icon="@drawable/table"
+        android:showAsAction="always|withText"
+        android:title="@string/table"/>
+    <item
+        android:id="@+id/results"
+        android:showAsAction="always|withText"
+        android:title="@string/results"/>
+    <item
+        android:id="@+id/round"
+        android:icon="@drawable/round"
+        android:showAsAction="always|withText"
+        android:title="@string/round"/>
+    <item
+        android:id="@+id/change_league"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/change_league"/>
+    <item
+        android:id="@+id/favorites"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/favorites"/>
+    <item
+        android:id="@+id/info"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/info"/>
+    <item
+        android:id="@+id/exit"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/exit"/>
+
+</menu>

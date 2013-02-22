@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UnihockeyLeagues</string>
+    <string name="empty"></string>
+    <string name="test">Dies ist ein Beispieltext auf Deutsch.</string>
+
+    <string-array name="kfgf">
+        <item>Kleinfeld</item>
+        <item>Grossfeld</item>
+    </string-array>
+
+    <string name="kfgf">KF/GF</string>
+    <string name="season">Beginn der Season:</string>
+    <string name="league">Wähle die Liga:</string>
+    <string name="group">Wähle die Gruppe:</string>
+
+    <string-array name="league_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="group_array">
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="season_array">
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+    </string-array>
+
+    <string name="saveInfo">Speichere meine Auswahl.</string>
+    <string name="login">Fortfahren</string>
+    <string name="progressText">Laden</string>
+    <string name="table">Tabelle</string>
+    <string name="results">Resultate</string>
+    <string name="round">Spieltage</string>
+    <string name="change_league">Liga wechseln</string>
+    <string name="favorites">Favoriten</string>
+    <string name="info">Info</string>
+    <string name="exit">Beenden</string>
+    <string name="a"></string>
+
+</resources>
