@@ -78,11 +78,12 @@ public class UnihockeyLeaguesActivity extends Activity {
 			group = savedInstanceState.getString("group");
 		}
 		this.getWindow().requestFeature(Window.FEATURE_PROGRESS);
-		setTitle("");
 		setContentView(R.layout.main);
 		this.getWindow().setFeatureInt(Window.FEATURE_PROGRESS,
 				Window.PROGRESS_VISIBILITY_ON);
-
+		getActionBar().setDisplayShowTitleEnabled(false);
+		getActionBar().setHomeButtonEnabled(true);
+		
 		this.webView = (WebView) findViewById(R.id.webView1);
 		this.webView.getSettings().setSupportZoom(true);
 		this.webView.getSettings().setBuiltInZoomControls(true);
